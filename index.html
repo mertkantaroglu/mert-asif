@@ -5,21 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Welcome to Trambone Page</h1>
   <header id="header">
-    <img id="header-img" src="">
+    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
     <nav id="nav-bar">
-      <button class="nav-link"></button>
-      <button class="nav-link"></button>
-      <button class="nav-link"></button>
+      <ul>
+      <li><a href="#features" class="nav-link">Features</a></li>
+      <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+      <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      
     </nav>
   </header>
-  <video id="video"></video>
-  <form id="form">
-    <input id="email" placeholder="Enter your email"  pattern=".+@globex\.com" size="30" required>
-    <input id="submit" action="https://www.freecodecamp.com/email-submit">
+  <br>
+  
+  <iframe id="video" width="320" height="240" src="https://www.youtube.com/watch?v=m6HgVhRCX04&ab_channel=MinnesotaOrchestra">
+  </iframe>
+  <br>
+  <form id="form" class="flex-container">
+    <input id="email" type="email" placeholder="Enter your email">
+    <button id="submit" action="https://www.freecodecamp.com/email-submit">Submit</button>
   </form>
+  <section id="features"></section>
+  <section id="how-it-works"></section>
+  <section id="pricing"></section>
 
 </body>
 </html>
